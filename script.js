@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${product.image}" alt="${product.title}" />
             <h4>${product.title}</h4>
             <p><span class="old-price">${product.originalPrice}</span> <span class="new-price">${product.price}</span></p>
+            ${product.note ? `<p class="note">${product.note}</p>` : ''}
             <a href="${product.link}" class="btn" target="_blank">Get Deal</a>
           </div>
         `;

@@ -122,6 +122,9 @@ footer {
   padding: 2rem 0;
 }
 
+
+
+
 /* Mobile responsive */
 @media (max-width: 600px) {
   .deal-cards {
@@ -140,4 +143,15 @@ footer {
   .intro h2 {
     font-size: 1.4rem;
   }
+}
+
+
+.card .note {
+  background-color: #e7f6ed;
+  color: #007b5e;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 0.5rem 0;
+  font-weight: 500;
 }
